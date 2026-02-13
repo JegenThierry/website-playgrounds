@@ -1,0 +1,11 @@
+services:
+  valentines-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1236:80"
+      - "1237:443"
+    volumes:
+      - ./:/usr/share/nginx/html
+    restart: unless-stopped
