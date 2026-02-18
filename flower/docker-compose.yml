@@ -3,9 +3,13 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "1234:80"
-      - "1235:443"
+    container_name: flower_site
     volumes:
       - ./:/usr/share/nginx/html
     restart: unless-stopped
+    networks:
+      - nginx-network
+
+networks:
+  nginx-network:
+    external: true
