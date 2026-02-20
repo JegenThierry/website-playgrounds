@@ -9,7 +9,7 @@ A collection of small webpages. This repository contains several small pagaes ea
 | Christmas 🎄 | A small collection of gifts for family. |
 | Flower 🌸 | A flower for your loved ones. |
 | Valentine's Day ❤️ | A romantic way to confess your love. |
-| Birthday 🌸 | A personalized Birthday site. |
+| Birthday 🎂 | A personalized Birthday site. |
 
 
 ## Getting Started
